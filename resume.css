@@ -1,0 +1,80 @@
+body{
+    font-size: 30px;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+    margin:0px;
+}
+
+
+/* body-header */
+#body-header {
+    height: 65vh;
+    width: 100vw;
+    /* opacity: 0.7; */
+    background-image: url("/scott-graham-OQMZwNd3ThU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+
+}
+
+/* Horizontal List */
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin:0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 1.3rem;
+
+}
+
+.horizontal-list li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 2s ;
+    
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 15vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
