@@ -10,8 +10,8 @@
 </head>
 <body>
     <header id="body-header">
-        <Nav>
-            <ul class="horizontal-list text-center nav-menu">
+        <Nav id="header-nav" >
+            <ul id="nav-link" class="horizontal-list text-center nav-menu">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -34,7 +34,45 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            <div id="hamburgur-icon"><i class="fa-solid fa-bars"></i>
+            </div>
+            
+
+            <input type="checkbox" id="toggle" name="toggle"> 
+            <!--Drop-Down--> 
+       <nav class="navigation--responsive">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav><!-- responsive nav ends-->
+
+            
         </Nav>
+
+       
+
+
+
+
+
+
         <div id="name-social-container">
             <div class="text-center">
                 <h1 id="my-name">Ajay Rathore</h1>
@@ -254,7 +292,7 @@
                     </div>
 
                 </div>
-                <div class="portfolio-image-container">
+                <div style="min-height: 350px;" class="portfolio-image-container">
                     <img src="/ai intership.avif">
                     <div class="portfolio-details">
                         <p>
