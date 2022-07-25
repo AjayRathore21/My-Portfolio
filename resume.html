@@ -7,6 +7,10 @@
     <title>Resume</title>
     <link rel="stylesheet" href="/resume.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <header id="body-header">
@@ -21,9 +25,7 @@
                 <li>
                     <a href="#skills"> Skills </a>
                 </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
+                
                 <li>
                     <a href="#education">Education</a>
                 </li>
@@ -48,9 +50,7 @@
             <li>
                 <a href="#about">About</a>
             </li>
-            <li>
-                <a href="experience">Experience</a>
-            </li>
+            
             <li>
                 <a href="#education">Education</a>
             </li>
@@ -75,32 +75,32 @@
 
         <div id="name-social-container">
             <div class="text-center">
-                <h1 id="my-name">Ajay Rathore</h1>
+                <h1 class="animate__animated animate__backInDown animate__slow-3s animate__delay-1s  animate__repeat-1 " id="my-name">Ajay Rathore</h1>
             </div>
             <div>
                 <ul class="horizontal-list text-center social-icons">
                     <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/ajay-rathore-5a99aa195">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://stackoverflow.com/users/17248239/ajay-03-i-t?tab=profile">
                             <i class="fab fa-stack-overflow"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fab fa-google-plus-g"></i>
+                        <a href="https://github.com/AjayRathore21" target="_blank">
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="Nahi-chalata-me">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.quora.com/profile/Ajay-Rathore-418">
                             <i class="fab fa-quora"></i>
                         </a>
                     </li>
@@ -113,7 +113,7 @@
 
     <main>
         <section id="about">
-            <div id="my-image">
+            <div class="animate__animated animate__zoomIn animate__delay-1s" id="my-image">
                 <img src="/Photo.jpeg">
             </div>
             <div id="about-para">
@@ -129,51 +129,51 @@
         </section>
 
         <section id="skills">
-            <h1 class="section-heading mb75px ">
+            <h1 class="section-heading mb75px animate__animated animate__bounce animate__repeat-3 animate__slow 2s ">
                 <span>
                     <i class="fas fa-chalkboard-teacher"></i>
                 </span>
-                <span> SKILLS </span>
+                <span> Skills </span>
             </h1>
 
             <div class="skills-display">
 
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="ninty-percent mb-blue">
                         <div class="skill-name">
                             <span> C++ </span>
                         </div>
                     </div>
                 </div>
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="eighty-five-percent mb-light-purple">
                         <div class="skill-name">
                              <span> HTML </span>
                         </div>
                     </div>
                 </div>
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="eighty-five-percent mb-light-purple">
                         <div class="skill-name">
                             <span> CSS </span>
                         </div>
                     </div>
                 </div>
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="seventyfive-percent mb-blue">
                         <div class="skill-name">
                             <span> Javascript </span>
                         </div>
                     </div>
                 </div>
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="sixtyfive-percent mb-teal">
                         <div class="skill-name">
                             <span> NodeJs </span>
                         </div>
                     </div>
                 </div>
-                <div class="skill-progress">
+                <div class="skill-progress animate__animated animate__rollIn animate__delay-4s animate__slow-3s animate__repeat-1">
                     <div class="sixtyfive-percent mb-orange">
                         <div class="skill-name">
                             <span> MongoDB </span>
@@ -187,7 +187,7 @@
 
         <section id="education">
 
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px animate__animated animate__bounce animate__infinite infinite animate__slow 2s">
                 <span>
                     <i class="fas fa-graduation-cap"></i>
                 </span>
@@ -247,7 +247,7 @@
         </section>
 
         <section id="portfolio">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px animate__animated animate__bounce animate__infinite infinite animate__slow 2s">
                 <span>
                     <i class="fas fa-th-list"></i>
                 </span>
@@ -304,6 +304,83 @@
                 
                 </div>
 
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px animate__animated animate__bounce animate__infinite infinite animate__slow 2s">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
+                    <p> Hello Everyone, My Name is Ajay. I am a Student of B.tech(I.T) in Guru Jambeshwar University Of Science And Technology (Hisar).I am very much Passionate
+                    about Coding and Web Development.
+                        </p>
+
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sonipat, India</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>9992664020</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>ajaykumar420.ak79@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/ajay-rathore-5a99aa195">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://stackoverflow.com/users/17248239/ajay-03-i-t?tab=profile">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/AjayRathore21" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="nahi-chalata-me">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.quora.com/profile/Ajay-Rathore-418" target="_blank">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
 
